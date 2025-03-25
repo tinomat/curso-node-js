@@ -4,7 +4,7 @@ const DEFAULT_CONFIG = {
     host: "localhost",
     user: "root",
     port: 3306,
-    password: "admin",
+    password: "",
     database: "moviesdb",
 };
 const connectionString = process.env.DATABASE_URL ?? DEFAULT_CONFIG;
